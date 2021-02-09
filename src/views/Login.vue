@@ -7,7 +7,7 @@
   <p class="LoginsubTitle">すぐやりたくなるToDoリスト</p>
 
   <div class="sub">
-  <button @click="openModal">ログインする</button>
+  <button @click="openModal" class="loginDo">ログインする</button>
     <div id="overlay" v-if="show">
       <div id="content">
         <input placeholder="メールアドレス" type="email" />
@@ -59,7 +59,12 @@ font-weight:900;
 position: absolute;
 top: 45%;
 left: 40%;
+padding: 15px;
 } 
+
+.loginDo{
+ margin: 20px;
+}
 
 button {
  width: 100px;

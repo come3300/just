@@ -17,9 +17,33 @@
 
 .HeaderTodo p{
   color: #f8f8f8;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
 }
 
+@media screen and (max-width : 480px){
+  .HeaderTodo{
+    width: 100%;
+    float: none;
+    overflow: hidden;
+    margin-bottom: 0;
+    height: 10%;
+  }
+  .HeaderTodo p{
+     font-size: 100px;
+  }
+}
 
-</style>>
+@media screen and (max-width : 768px){
+  .HeaderTodo p{
+  color: #f8f8f8;
+  font-size: 30px;
+  font-weight: bold;
+  white-space: nowrap;
+  margin: 0;
+}
+
+
+}
+
+</style>
